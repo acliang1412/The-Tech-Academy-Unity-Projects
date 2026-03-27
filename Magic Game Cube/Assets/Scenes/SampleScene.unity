@@ -316,6 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 778113f8edddf12429097947d05a27c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  myRigidBody2D: {fileID: 1980511791}
 --- !u!212 &1822966060
 SpriteRenderer:
   serializedVersion: 2
@@ -422,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 778113f8edddf12429097947d05a27c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  myRigidBody2D: {fileID: 0}
 --- !u!212 &1980511789
 SpriteRenderer:
   serializedVersion: 2

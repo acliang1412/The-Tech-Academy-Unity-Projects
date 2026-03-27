@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
+
+    public Rigidbody2D myRigidBody2D;
+
+
     int numberOfTimes = 5;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,19 +27,19 @@ public class Cube : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            print("You pressed Left");
+            myRigidBody2D.linearVelocity = new Vector2(-10f, 0f);
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            print("You pressed right");
+            myRigidBody2D.linearVelocity = new Vector2(10f, 0f);
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            print("You pressed down");
+            myRigidBody2D.linearVelocity = new Vector2(0f, -10f);
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            print("You pressed up");
+            myRigidBody2D.linearVelocity = new Vector2(0f, 10f);
         }
     }
 }
