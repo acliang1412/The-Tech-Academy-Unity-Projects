@@ -41,5 +41,22 @@ public class Cube : MonoBehaviour
         {
             myRigidBody2D.linearVelocity = new Vector2(0f, 10f);
         }
+
+        if (transform.position.x > 12.5f)
+        {
+            Debug.LogWarning("You went too far to the right!");
+        }
+        else if (transform.position.x < -12.5f)
+        {
+            Debug.LogWarning("You went too far to the left!");
+        }
+        else if (transform.position.y > 6.5f)
+        {
+            Debug.LogWarning("You went too far up!");
+        }
+        else if (transform.position.y < -6.5f)
+        {
+            Debug.LogWarning("You went too far down!");
+        }
     }
 }
