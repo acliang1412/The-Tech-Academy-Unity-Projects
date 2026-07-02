@@ -6,6 +6,9 @@ This repository contains a collection of Unity projects developed as part of The
 
 *   **HelloWorld:** A simple project that prints "Hello, World!" to the console, demonstrating basic Unity script setup.
 *   **3DCube:** A project that showcases the creation and manipulation of a 3D cube object in Unity.
+*   **Magic Game Cube:** An interactive game project centered around a cube with special behaviors or game mechanics.
+*   **Setup Guide In-Editor Tutorial:** A project created by following an in-editor tutorial, demonstrating the process of learning new Unity features directly within the engine.
+*   **SolarSystem:** A project that models the solar system, demonstrating object hierarchies and scripted animations.
 
 ## Technologies Used
 
@@ -19,3 +22,5 @@ Through these projects, I've gained a foundational understanding of the Unity ed
 *   **Basic Scripting:** Creating C# scripts and attaching them to GameObjects to control behavior.
 *   **Unity Console:** Using `Debug.Log()` to print messages for debugging purposes.
 *   **3D Objects:** Creating and manipulating basic 3D primitives within a Unity scene.
+*   **Object Hierarchies:** Parenting GameObjects to create relationships, like planets orbiting a sun.
+*   **Animation and Movement:** Using scripts to create continuous movement and rotation.
